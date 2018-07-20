@@ -1,6 +1,7 @@
 {
   "input_file": "enlisted.csv",
   "input_folder": "../data/",
+  "output_folder" : "../output/",
   "separator": ";",
   "show_tree" : false,
   "zz": 0
