@@ -3,9 +3,9 @@ from json import load
 from os.path import isdir
 from time import time
 
-import pandas as pd
 from ete3 import Tree
 from ete3 import TreeStyle
+from pandas import read_csv
 
 
 def get_setting(arg_setting_name, arg_settings):
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     check_exists(input_folder, 'input')
     input_file = get_setting('input_file', settings)
     separator = get_setting('separator', settings)
-    data = pd.read_csv(input_folder + input_file, sep=separator)
+    data = read_csv(input_folder + input_file, sep=separator)
     logger.debug('initial data has shape %d rows x %d columns' % data.shape)
 
     data['first'] = data['AFSC'].apply(lambda x: x[:1])
@@ -74,9 +74,10 @@ if __name__ == '__main__':
     if show_tree:
         tree.show(tree_style=tree_style)
     output_folder = get_setting('output_folder', settings)
-    check_exists(output_folder, 'output folder')
+    check_exists(output_folder, 'output')
     output_file = get_setting('output_file', settings)
-    tree.render(output_folder + output_file, w=600, dpi=300, tree_style=tree_style)
+    png_width = get_setting('png_width', settings)
+    tree.render(output_folder + output_file, w=png_width, dpi=300, tree_style=tree_style)
 
     logger.debug('done')
     finish_time = time()
