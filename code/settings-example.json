@@ -2,5 +2,6 @@
   "input_file": "enlisted.csv",
   "input_folder": "../data/",
   "separator": ";",
+  "show_tree" : false,
   "zz": 0
 }
