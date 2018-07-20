@@ -6,5 +6,6 @@
   "png_width" : 1200,
   "separator": ";",
   "show_tree" : false,
+  "tree_style_mode": "c",
   "zz": 0
 }
