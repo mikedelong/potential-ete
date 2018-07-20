@@ -67,7 +67,7 @@ if __name__ == '__main__':
     logger.debug(tree)
     tree_style = TreeStyle()
     tree_style.show_leaf_name = True
-    tree_style.mode = "c"
+    tree_style.mode = 'c'
     show_tree = get_setting('show_tree', settings)
     if show_tree:
         tree.show(tree_style=tree_style)
@@ -81,6 +81,6 @@ if __name__ == '__main__':
     finish_time = time()
     elapsed_hours, elapsed_remainder = divmod(finish_time - start_time, 3600)
     elapsed_minutes, elapsed_seconds = divmod(elapsed_remainder, 60)
-    logger.info("Time: {:0>2}:{:0>2}:{:05.2f}".format(int(elapsed_hours), int(elapsed_minutes), elapsed_seconds))
+    logger.info('Time: {:0>2}:{:0>2}:{:05.2f}'.format(int(elapsed_hours), int(elapsed_minutes), elapsed_seconds))
     console_handler.close()
     logger.removeHandler(console_handler)
