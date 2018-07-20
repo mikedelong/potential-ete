@@ -1,0 +1,134 @@
+﻿
+1A0XX In-Flight Refueling
+1A1XX Flight Engineer
+1A2XX Aircraft Loadmaster
+1A3XX Airborne Mission System
+1A4XX Airborne Operations
+1A6XX Flight Attendant
+1A7XX Aerial Gunner
+1A8XX Airborne Cryptologic Linguist
+1B4XX Cyberspace Defense Operations
+1C0XX Aviation Resource Management
+1C1XX Air Traffic Control
+1C2XX Combat Control
+1C3XX Command Post
+1C4XX Tactical Air Control Party
+1C5XX Command and Control Battle Management Operations
+1C6XX Space Systems Operations
+1C7XX Airfield Management
+1N0XX Operations Intelligence
+1N1XX Geospatial Intelligence
+1N2XX Signals Intelligence Analyst
+1N3XX Cryptologic Language Analyst
+1N4XX Network Intelligence Analyst
+1POXX Aircrew Flight Equipment
+1S0XX Safety
+1T0XX Survival, Evasion, Resistance and Escape
+1T2XX Pararescue
+1U0XX Career RPA Sensor Operator
+1W0XX Weather
+2A0XX Avionics Test Station and Components
+2A3XX Avionics Systems
+2A5XX Aerospace Maintenance
+2A6XX Aerospace Propulsion
+2A7XX Aircraft Metals Technology
+2E1XX Satellite, Wideband and Telemetry Systems
+2E2XX Network Infrastructure Systems
+2E6XX Communication Cable and Antenna Systems
+2F0XX Fuels
+2G0XX Logistics Plans
+2M0XX Missile Maintenance
+2P0XX Precision Measurement Equipment Laboratory
+2R0XX Maintenance Management Analysis
+2R1XX Maintenance Management Production
+2S0XX Materiel Management
+2T0XX Traffic Management
+2T1XX Vehicle Operations
+2T2XX Air Transportation
+2T3XX Vehicle Maintenance
+2W0XX Munitions Systems
+2W1XX Aircraft Armament Systems
+2W2XX Nuclear Weapons
+3A0XX Knowledge Operations Management
+3C0XX Communication-Computer Systems
+3C1XX Information Systems Technology
+3C2XX Network Integration
+3D0XX Knowledge Operations Management
+3D1XX Client Systems
+3E0XX Electrical Systems
+3E1XX Heating, Ventilation, AC, Refrigeration
+3E2XX Pavement and Construction Equipment
+3E3XX Structural
+3E4XX Water and Fuel Systems Maintenance
+3E5XX Engineering
+3E6XX Operations Management
+3E7XX Fire Protection
+3E8XX Explosive Ordnance Disposal
+3E9XX Emergency Management
+3M0XX Services
+3N0XX Public Affairs
+3N1XX Regional Band
+3N2XX Premier Band
+3P0XX Security Forces
+3S0XX Personnel
+3S1XX Equal Opportunity
+3S2XX Education and Training
+3S3XX Manpower
+4A0XX Health Services Management
+4A1XX Medical Material
+4A2XX Biomedical Equipment
+4B0XX Bioenvironmental Engineering
+4C0XX Mental Health Service
+4D0XX Diet Therapy
+4E0XX Public Health
+4H0XX Cardiopulmonary Laboratory
+4J0XX Physical Medicine
+4M0XX Aerospace and Operational Physiology
+4N0XX Aerospace Medical Service
+4N1XX Surgical Service
+4P0XX Pharmacy
+4R0XX Diagnostic Imaging
+4T0XX Medical Laboratory
+4V0XX Ophthalmic
+4Y0XX Dental Assistant
+5J0XX Paralegal
+5R0XX Chaplain Assistant
+6C0XX Contracting
+6F0XX Financial Management and Comptroller
+7S0XX Special Investigations
+8A1XX Career Assistance Adviser
+8A2XX Enlisted Aide
+8B0XX Military Training Instructor
+8B1XX Military Training Leader
+8B2XX Academy Military Training NCO
+8C0XX Airmen/Family Readiness Center
+8D0XX Strategic Debriefer
+8F0XX First Sergeant
+8G0XX Honor Guard
+8H0XX Airman Dorm Leader
+8M0XX Postal
+8P0XX Courier
+8P1XX Defense Attaché
+8R0XX Enlisted Accessions Recruiter
+8R2XX Second-Tier Recruiter
+8R3XX Third-Tier Recruiter
+8S0XX Missile Facility Manager
+8T0XX Professional Military Education Instructor
+9A0XX Awaiting Retraining-Reasons Beyond Control
+9A1XX Awaiting Retraining-Reasons Within Control
+9A2XX Awaiting Discharge, Separation, Retirement for Reasons Within Their Control
+9A3XX Awaiting Discharge, Separation, Retirement for Reasons Beyond Their Control
+9C0XX Chief Master Sergeant of the Air Force
+9D0XX Dormitory Manager
+9E0XX Command Chief Master Sergeant
+9F0XX First Term Airmen Center
+9G1XX Group Superintendent
+9J0XX Prisoner
+9L0XX Interpreter/Translator
+9P0XX Patient
+9R0XX Civil Air Patrol-USAF Reserve Assistance NCO
+9S1XX Scientific Applications Specialist
+9T0XX Basic Enlisted Airman
+9T1XX Officer Trainee
+9T2XX Pre-Cadet Assignee
+9WOXX Wounded Warrior 
