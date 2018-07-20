@@ -17,9 +17,9 @@ def get_setting(arg_setting_name, arg_settings):
         quit()
 
 
-def check_existree_style(arg_folder_name, arg_descriptor):
-    folder_existree_style = isdir(arg_folder_name)
-    if folder_existree_style:
+def check_exists(arg_folder_name, arg_descriptor):
+    folder_exists = isdir(arg_folder_name)
+    if folder_exists:
         logger.debug('using %s as the %s folder' % (arg_folder_name, arg_descriptor))
     else:
         logger.warning('%s %s does not exist. Quitting.' % (arg_descriptor, arg_folder_name))
@@ -43,7 +43,7 @@ if __name__ == '__main__':
         logger.debug(settings)
 
     input_folder = get_setting('input_folder', settings)
-    check_existree_style(input_folder, 'input')
+    check_exists(input_folder, 'input')
     input_file = get_setting('input_file', settings)
     separator = get_setting('separator', settings)
     data = pd.read_csv(input_folder + input_file, sep=separator)
@@ -70,8 +70,13 @@ if __name__ == '__main__':
     tree_style = TreeStyle()
     tree_style.show_leaf_name = True
     tree_style.mode = "c"
-    tree.show(tree_style=tree_style)
-    # tree.show()
+    show_tree = get_setting('show_tree', settings)
+    if show_tree:
+        tree.show(tree_style=tree_style)
+    output_folder = get_setting('output_folder', settings)
+    check_exists(output_folder, 'output folder')
+    output_file = get_setting('output_file', settings)
+    tree.render(output_folder + output_file, w=600, dpi=300, tree_style=tree_style)
 
     logger.debug('done')
     finish_time = time()
