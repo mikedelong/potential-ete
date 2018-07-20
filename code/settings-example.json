@@ -3,6 +3,7 @@
   "input_folder": "../data/",
   "output_file" : "enlisted-afsc-tree.png",
   "output_folder" : "../output/",
+  "png_width" : 1200,
   "separator": ";",
   "show_tree" : false,
   "zz": 0
