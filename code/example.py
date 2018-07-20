@@ -3,8 +3,6 @@ from json import load
 from os.path import isdir
 from time import time
 
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 
@@ -47,7 +45,12 @@ if __name__ == '__main__':
     input_file = get_setting('input_file', settings)
     separator = get_setting('separator', settings)
     data = pd.read_csv(input_folder + input_file, sep=separator)
-    logger.debug(data.shape)
+    logger.debug('initial data has shape %d rows x %d columns' % data.shape)
+
+    data['first'] = data['AFSC'].apply(lambda x: x[:1])
+    data['second'] = data['AFSC'].apply(lambda x: x[:2])
+    data['third'] = data['AFSC'].apply(lambda x: x[:3])
+    logger.debug('after parsing data has shape %d rows x %d columns' % data.shape)
 
     logger.debug('done')
     finish_time = time()
