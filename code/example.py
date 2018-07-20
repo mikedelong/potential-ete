@@ -67,6 +67,7 @@ if __name__ == '__main__':
     logger.debug(tree)
     tree_style = TreeStyle()
     tree_style.show_leaf_name = True
+    tree_style_mode = get_setting('tree_style_mode', settings)
     tree_style.mode = 'c'
     show_tree = get_setting('show_tree', settings)
     if show_tree:
@@ -75,7 +76,8 @@ if __name__ == '__main__':
     check_exists(output_folder, 'output')
     output_file = get_setting('output_file', settings)
     png_width = get_setting('png_width', settings)
-    tree.render(output_folder + output_file, w=png_width, dpi=300, tree_style=tree_style)
+    png_dpi = get_setting('png_dpi', settings)
+    tree.render(output_folder + output_file, w=png_width, dpi=png_dpi, tree_style=tree_style)
 
     logger.debug('done')
     finish_time = time()
