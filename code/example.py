@@ -69,6 +69,7 @@ if __name__ == '__main__':
     tree_style.show_leaf_name = True
     tree_style_mode = get_setting('tree_style_mode', settings)
     show_tree = get_setting('show_tree', settings)
+    tree_style.mode = tree_style_mode
     if show_tree:
         tree.show(tree_style=tree_style)
     output_folder = get_setting('output_folder', settings)
