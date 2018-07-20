@@ -61,10 +61,8 @@ if __name__ == '__main__':
         for second in data[data['first'] == first]['second'].unique():
             t1 = t0.add_child(name=second)
             for third in data[data['second'] == second]['third'].unique():
-                afsc = data[data['third'] == third]['AFSC'].values[0]
-                description = data[data['third'] == third]['Description'].values[0]
-                name = '{}: {}'.format(afsc, description)
-                t2 = t1.add_child(name=name)
+                t2 = t1.add_child(name='{}: {}'.format(data[data['third'] == third]['AFSC'].values[0],
+                                                       data[data['third'] == third]['Description'].values[0]))
 
     logger.debug(tree)
     tree_style = TreeStyle()
