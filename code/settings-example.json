@@ -1,6 +1,7 @@
 {
   "input_file": "enlisted.csv",
   "input_folder": "../data/",
+  "output_file" : "enlisted-afsc-tree.png",
   "output_folder" : "../output/",
   "separator": ";",
   "show_tree" : false,
